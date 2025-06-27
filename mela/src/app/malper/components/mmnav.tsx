@@ -15,13 +15,13 @@ function Mmmnavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/malper">Yekazad Software Center</Navbar.Brand>
+        <Navbar.Brand href="/malper">SîmûrgBaz</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/malper">Home</Nav.Link>
-            <NavDropdown title="Products" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/malper/mmavahi/mmmweb">Web Sites</NavDropdown.Item>
+            <Nav.Link href="/malper">Malper</Nav.Link>
+            <NavDropdown title="Gotar" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/malper/mmavahi/mmmweb"></NavDropdown.Item>
               <NavDropdown.Item href="/malper/mmavahi/mmmobile">
                 
              Mobile Apps
@@ -45,7 +45,7 @@ function Mmmnavbar() {
 
 
 
-            <NavDropdown title="Courses" id="basic-nav-dropdown">
+            <NavDropdown title="Civak/Hawîrnas" id="basic-nav-dropdown">
               <NavDropdown.Item href="/malper/mmperwerdehi">Web</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 
@@ -62,8 +62,8 @@ Mobile
 
 
 
-            <NavDropdown title="Services " id="basic-nav-dropdown">
-              <NavDropdown.Item href="/malper/mmkarubar">Windows Apps</NavDropdown.Item>
+            <NavDropdown title="Cîhan" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/malper/mmkarubar">Nûçe</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 
               </NavDropdown.Item>
@@ -88,21 +88,21 @@ Mobile
           
 
 
-            <NavDropdown title="References" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/malper/mm">NLP</NavDropdown.Item>
+            <NavDropdown title="Çand/Huner" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/malper/mm">Helbest</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 
-                Object Detection
+                Gotinên Pêşîyan
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Image Processing</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Jin/Jîyan</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Advanced
+                Çîrok
               </NavDropdown.Item>
             </NavDropdown>
 
 
-            <NavDropdown title="For Developers" id="basic-nav-dropdown">
+            <NavDropdown title="Tendûrûstî" id="basic-nav-dropdown">
               <NavDropdown.Item href="/mmmmm">Courses</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Documantations
@@ -114,7 +114,7 @@ Mobile
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="#link">About Us</Nav.Link>
+            <Nav.Link href="#link">Derbare</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>

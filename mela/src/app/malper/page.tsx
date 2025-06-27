@@ -21,7 +21,7 @@ function page() {
           alt="Malpera xwe biafirîne"
           className="w-full h-32 object-cover rounded-t-lg mb-4"
         />
-        <h3 className="text-xl font-bold mb-2">Malpera xwe biafirîne</h3>
+        <h3 className="text-xl font-bold mb-2">Gotar</h3>
         <p className="text-gray-600">Bi şablonan me yên hêsan malpera xwe biafirîne.</p>
         <a href="#projects" className="text-blue-500 hover:underline mt-4 block">
           Şablonan bibîne û dest bi avakirina bike
@@ -35,7 +35,7 @@ function page() {
           alt="Sepanên mobîl"
           className="w-full h-32 object-cover rounded-t-lg mb-4"
         />
-        <h3 className="text-xl font-bold mb-2">Sepana mobîlê xwe bibe</h3>
+        <h3 className="text-xl font-bold mb-2">Çand /Huner</h3>
         <p className="text-gray-600">Bi platforma me sepanên mobîl hêsan biafirîne.</p>
         <a href="#team" className="text-blue-500 hover:underline mt-4 block">
            Çareseriyên sepanê mobîl bibîne
@@ -49,10 +49,10 @@ function page() {
           alt="Çareseriyên zêrekîya zanistî"
           className="w-full h-32 object-cover rounded-t-lg mb-4"
         />
-        <h3 className="text-xl font-bold mb-2">Çareseriyên zêrekîya zanistî bistîne</h3>
+        <h3 className="text-xl font-bold mb-2">Gotinên Pêşîya</h3>
         <p className="text-gray-600">Çareseriyên AI yên li gorî xwestina te bistîne.</p>
         <a href="#deadlines" className="text-blue-500 hover:underline mt-4 block">
-          Dema dawî bibîne
+        Bixwîne
         </a>
       </div>
     </div>

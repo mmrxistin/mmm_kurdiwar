@@ -62,8 +62,7 @@ const ContactForm: React.FC = () => {
           letterSpacing: "1px",
           fontSize: "2rem",
         }}
-      >
-        Contact Us
+      >Têkili
       </h2>
       <Form.Group className="mb-3" controlId="formName">
         <Form.Label style={{ color: "#495057", fontWeight: 500 }}>Name</Form.Label>
@@ -98,7 +97,7 @@ const ContactForm: React.FC = () => {
         />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formMessage">
-        <Form.Label style={{ color: "#495057", fontWeight: 500 }}>Your Message</Form.Label>
+        <Form.Label style={{ color: "#495057", fontWeight: 500 }}>Peyama We</Form.Label>
         <Form.Control
           as="textarea"
           rows={4}
@@ -131,7 +130,9 @@ const ContactForm: React.FC = () => {
           variant="success"
           type="submit"
         >
-          Send
+       
+
+        Bişîne
         </Button>
       </div>
       <p className="text-center mt-4" style={{ color: "#6c757d", fontSize: "1rem" }}>
