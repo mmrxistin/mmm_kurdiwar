@@ -12,61 +12,75 @@ import React from 'react'
 function page() {
   return (
     <main className="flex-grow container mx-auto py-8">
-    {/* Dashboard Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {/* Card 1: Build Your Website */}
-      <div className="bg-white shadow-lg rounded-lg p-6">
-        <img
-          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80"
-          alt="Malpera xwe biafirîne"
-          className="w-full h-32 object-cover rounded-t-lg mb-4"
-        />
-        <h3 className="text-xl font-bold mb-2">Gotar</h3>
-        <p className="text-gray-600">Bi şablonan me yên hêsan malpera xwe biafirîne.</p>
-        <a href="#projects" className="text-blue-500 hover:underline mt-4 block">
-          Şablonan bibîne û dest bi avakirina bike
-        </a>
-      </div>
+      <header className="mb-8">
+        <h1 className="text-3xl font-bold">Takvim Satışı — Firotana Teqwima</h1>
+        <p className="text-gray-600 mt-2">
+          Yıllık duvar ve masa takvimleri. Kaliteli baskı, farklı boyut ve tasarım seçenekleri.
+        </p>
+      </header>
 
-      {/* Card 2: Mobile Apps */}
-      <div className="bg-white shadow-lg rounded-lg p-6">
-        <img
-          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80"
-          alt="Sepanên mobîl"
-          className="w-full h-32 object-cover rounded-t-lg mb-4"
-        />
-        <h3 className="text-xl font-bold mb-2">Çand /Huner</h3>
-        <p className="text-gray-600">Bi platforma me sepanên mobîl hêsan biafirîne.</p>
-        <a href="#team" className="text-blue-500 hover:underline mt-4 block">
-           Çareseriyên sepanê mobîl bibîne
-        </a>
-      </div>
-  
-      {/* Card 3: AI Solutions */}
-      <div className="bg-white shadow-lg rounded-lg p-6">
-        <img
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
-          alt="Çareseriyên zêrekîya zanistî"
-          className="w-full h-32 object-cover rounded-t-lg mb-4"
-        />
-        <h3 className="text-xl font-bold mb-2">Gotinên Pêşîya</h3>
-        <p className="text-gray-600">Çareseriyên AI yên li gorî xwestina te bistîne.</p>
-        <a href="#deadlines" className="text-blue-500 hover:underline mt-4 block">
-        Bixwîne
-        </a>
-      </div>
-    </div>
-  
-    {/* Recent Updates Section */}
-    <div className="mt-8">
-      <h2 className="text-2xl font-bold mb-4">Nûvekirinên Dawî</h2>
-      <ul className="list-disc pl-5 text-gray-700">
-        <li>Amûra rêvebirina projeyan hate zêdekirin.</li>
-        <li>Civîna hefteyê ya tîmê di roja înê de ye.</li>
-        <li>Parastina pergala di şevê şemiyê de tê kirin.</li>
-      </ul>
-    </div>
-  </main>
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article className="bg-white shadow rounded-lg p-6">
+          <img
+            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80"
+            alt="Duvar Takvimi"
+            className="w-full h-40 object-cover rounded mb-4"
+          />
+          <h3 className="text-xl font-semibold">Duvar Takvimi 2026</h3>
+          <p className="text-gray-600 mt-2">A2 boyut, kaliteli kağıt, özel tasarım seçenekleri.</p>
+          <p className="mt-2 font-bold">Fiyat: ₺120</p>
+          <a href="/malper/firotana-teqwima/siparis?urun=duvar" className="text-blue-600 mt-4 inline-block">
+            Sipariş ver
+          </a>
+        </article>
+
+        <article className="bg-white shadow rounded-lg p-6">
+          <img
+            src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=400&q=80"
+            alt="Masa Takvimi"
+            className="w-full h-40 object-cover rounded mb-4"
+          />
+          <h3 className="text-xl font-semibold">Masa Takvimi</h3>
+          <p className="text-gray-600 mt-2">Kompakt, spiral ciltli, ofisler için ideal.</p>
+          <p className="mt-2 font-bold">Fiyat: ₺45</p>
+          <a href="/malper/firotana-teqwima/siparis?urun=masa" className="text-blue-600 mt-4 inline-block">
+            Sipariş ver
+          </a>
+        </article>
+
+        <article className="bg-white shadow rounded-lg p-6">
+          <img
+            src="https://images.unsplash.com/photo-1505575967457-43174fbf4f12?auto=format&fit=crop&w=400&q=80"
+            alt="Kişiye Özel Takvim"
+            className="w-full h-40 object-cover rounded mb-4"
+          />
+          <h3 className="text-xl font-semibold">Kişiye Özel Takvim</h3>
+          <p className="text-gray-600 mt-2">Fotoğraf ve not ekleyerek tamamen size özel takvim.</p>
+          <p className="mt-2 font-bold">Fiyat: ₺180</p>
+          <a href="/malper/firotana-teqwima/siparis?urun=ozel" className="text-blue-600 mt-4 inline-block">
+            Sipariş ver
+          </a>
+        </article>
+      </section>
+
+      <section className="mt-10 bg-white shadow rounded-lg p-6">
+        <h2 className="text-2xl font-bold mb-3">Bilgi & Teslimat</h2>
+        <ul className="list-disc pl-5 text-gray-700">
+          <li>Üretim süresi: 3-7 iş günü.</li>
+          <li>Kargo: Türkiye içi 2-4 iş günü.</li>
+          <li>Toplu siparişlerde indirim uygulanır — lütfen iletişime geçin.</li>
+        </ul>
+
+        <div id="contact" className="mt-6">
+          <h3 className="text-lg font-semibold">İletişim / Sipariş</h3>
+          <p className="text-gray-700">E-posta: satis@example.com</p>
+          <p className="text-gray-700">Telefon: +90 555 000 0000</p>
+          <a href="/malper/firotana-teqwima/siparis" className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded">
+            Sipariş Sayfasına Git
+          </a>
+        </div>
+      </section>
+    </main>
   )
 }
 
