@@ -22,6 +22,22 @@ function page() {
         padding: "10px",
       }}
     >
+      <div style={{ width: "100%", textAlign: "center", marginBottom: "12px" }}>
+        <small
+          style={{
+            color: "#155724",
+            background: "#d4edda",
+            padding: "8px 14px",
+            borderRadius: 12,
+            display: "inline-block",
+            fontWeight: 700,
+            letterSpacing: "0.6px",
+          }}
+        >
+          EVE Jİ İNŞALLAH AZZE VE CELLE
+        </small>
+      </div>
+
       <Card
         style={{
           opacity: 0.97,
