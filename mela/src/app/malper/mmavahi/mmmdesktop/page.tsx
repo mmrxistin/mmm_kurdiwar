@@ -34,7 +34,6 @@ function page() {
             letterSpacing: "0.6px",
           }}
         >
-          EVE Jİ İNŞALLAH AZZE VE CELLE
         </small>
       </div>
 

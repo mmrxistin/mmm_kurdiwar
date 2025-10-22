@@ -20,8 +20,8 @@ function Mmmnavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/malper">Malper</Nav.Link>
-            <NavDropdown title="Gotar" id="basic-nav-dropdown">
+            <Nav.Link href="/malper">Masa Takvimleri</Nav.Link>
+            <NavDropdown title="SADE TAKVİM" id="basic-nav-dropdown">
               <NavDropdown.Item href="/malper/mmavahi/mmmweb"></NavDropdown.Item>
               <NavDropdown.Item href="/malper/mmavahi/mmmobile">
                 
@@ -46,7 +46,7 @@ function Mmmnavbar() {
 
 
 
-            <NavDropdown title="Civak/Hawîrnas" id="basic-nav-dropdown">
+            <NavDropdown title="HEDİYELİ TAKVİM" id="basic-nav-dropdown">
               <NavDropdown.Item href="/malper/mmperwerdehi">Web</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 
@@ -89,16 +89,16 @@ Mobile
           
 
 
-            <NavDropdown title="Çand/Huner" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/malper/mm">Helbest</NavDropdown.Item>
+            <NavDropdown title="ÖZEL GÜNLER" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/malper/mm">Anneler Günü</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 
-                Gotinên Pêşîyan
+                Babalar Günü
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Jin/Jîyan</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Öğretmenler Günü</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Çîrok
+                Diğer
               </NavDropdown.Item>
             </NavDropdown>
 
