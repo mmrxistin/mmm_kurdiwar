@@ -8,6 +8,7 @@
 // Estağfirullah El-Azim
 // La ilahe illallah, Muhammedur Resulullah
 import React from 'react'
+import ContactForm from './components/mmfrm'
 
 function page() {
   return (
@@ -72,12 +73,7 @@ function page() {
         </ul>
 
         <div id="contact" className="mt-6">
-          <h3 className="text-lg font-semibold">İletişim / Sipariş</h3>
-          <p className="text-gray-700">E-posta: satis@example.com</p>
-          <p className="text-gray-700">Telefon: +90 555 000 0000</p>
-          <a href="/malper/firotana-teqwima/siparis" className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded">
-            Sipariş Sayfasına Git
-          </a>
+          <ContactForm />
         </div>
       </section>
     </main>
