@@ -30,8 +30,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Kurdiwar",
-    default: " Kurdiwar",
+    template: "%s | Günlerin Dili",
+    default: " Günlerin Dili",
   },
   description: " Ware zimane kurdi.",
 };
